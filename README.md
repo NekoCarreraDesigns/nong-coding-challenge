@@ -18,7 +18,7 @@ coding challenge for internship using field notes for agricultural purposes
 
 ## Installation
 
-` npx create-react-app my app, npm i @material-ui/core, npm run start `
+`npx create-react-app my app, npm i @material-ui/core, npm run start`
 
 ## Usage
 
@@ -51,5 +51,3 @@ undefined
   ***
 
   ##### \_Created with [NekoCarreraDesigns readme generator] (https://github.com/NekoCarreraDesigns/readme-generator)
-# nong-coding-challenge
-# nong-coding-challenge
