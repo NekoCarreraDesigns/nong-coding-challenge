@@ -1,0 +1,30 @@
+.note-date,
+.written-by {
+  display: inline-block;
+  width: 200px;
+  padding: 10px;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+
+.note-body {
+  border-radius: 10px;
+  margin-left: 20px;
+  width: 45%;
+  height: 300px;
+}
+
+.new-notes-header {
+  margin-left: 20px;
+  color: green;
+}
+
+.save-button {
+  margin-left: 20px;
+  border-radius: 5px;
+  width: 100px;
+}
+
+.saved-notes {
+  color: green;
+}
