@@ -11,7 +11,7 @@ function Form () {
             <br></br>
             <input className="written-by" alt="by-input" placeholder="written by"></input>
             <br></br>
-            <textarea className="note-body" alt="note-input"></textarea>
+            <textarea className="note-body" alt="note-text-area"></textarea>
         </form>
         <button className="save-button">Save</button>
         <button className="log-out-button">Log Out</button>
