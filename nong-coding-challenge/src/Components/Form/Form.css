@@ -21,10 +21,26 @@
 
 .save-button {
   margin-left: 20px;
-  border-radius: 5px;
+  border-radius: 10px;
   width: 100px;
+  color: green;
 }
 
 .saved-notes {
   color: green;
+  margin-left: 20px;
+}
+
+.log-out-button {
+  color: green;
+  width: 100px;
+  border-radius: 10px;
+}
+
+.log-out-button:hover {
+  background-color: red;
+}
+
+.save-button:hover {
+  background-color: yellowgreen;
 }

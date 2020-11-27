@@ -14,6 +14,7 @@ function Form () {
             <input className="note-body" alt="note-input" placeholder="body"></input>
         </form>
         <button className="save-button">Save</button>
+        <button className="log-out-button">Log Out</button>
         </div>
         <div className="saved-notes">
             <h1>Saved Notes</h1>

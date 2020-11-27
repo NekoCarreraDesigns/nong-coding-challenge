@@ -7,8 +7,19 @@
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
+      content="App for taking field notes to aid in crop scouting"
+    />
+    <meta
+      name="description"
+      content="App developed by Neko Carrera Designs head developer Nicholas Maas"
+      <meta
+      name="description"
       content="Web site created using create-react-app"
     />
+    <script
+      src="https://kit.fontawesome.com/d6195a6f6a.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
@@ -27,7 +38,7 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Crop Scout</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -41,6 +52,29 @@
 
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    --><!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-analytics.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      var firebaseConfig = {
+        apiKey: "AIzaSyBTy53xCbhFkCDkUcSc5xhOb7Ms84Fe3Is",
+        authDomain: "nong-coding-challenge.firebaseapp.com",
+        databaseURL: "https://nong-coding-challenge.firebaseio.com",
+        projectId: "nong-coding-challenge",
+        storageBucket: "nong-coding-challenge.appspot.com",
+        messagingSenderId: "147355604530",
+        appId: "1:147355604530:web:c8cee4698bf52ad1344e2b",
+        measurementId: "G-Q3412VRFES",
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
   </body>
 </html>

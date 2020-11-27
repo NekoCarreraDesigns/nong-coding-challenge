@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>Crop Report</p>
+  <p><i class="fas fa-tractor"></i>{' '}Crop Scout{' '}<i class="fas fa-tractor"></i></p>
       </header>
       <Form/>
     </div>
