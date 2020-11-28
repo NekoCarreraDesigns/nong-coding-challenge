@@ -3,15 +3,32 @@
   width: 200px;
   height: 25px;
   border-radius: 20px;
-  margin-left: 40%;
+  margin-left: 42%;
 }
 
 .Sign-in-button {
-  margin-left: 40%;
+  margin-left: 42%;
+  border-radius: 10px;
+  width: 100px;
+}
+
+.Sign-up-button {
   border-radius: 10px;
   width: 100px;
 }
 
 .Sign-in-button:hover {
-  background-color: greenyellow;
+  background-color: blue;
+}
+
+.Sign-up-button:hover {
+  background-color: red;
+}
+
+.opening-paragraph {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: green;
 }
