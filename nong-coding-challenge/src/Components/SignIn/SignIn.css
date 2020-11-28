@@ -1,0 +1,17 @@
+.user-email,
+.user-password {
+  width: 200px;
+  height: 25px;
+  border-radius: 20px;
+  margin-left: 40%;
+}
+
+.Sign-in-button {
+  margin-left: 40%;
+  border-radius: 10px;
+  width: 100px;
+}
+
+.Sign-in-button:hover {
+  background-color: greenyellow;
+}

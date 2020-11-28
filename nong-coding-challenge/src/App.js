@@ -1,5 +1,7 @@
 import React from "react";
-import Form from "./Components/Form/Form.js"
+import SignIn from "./Components/SignIn/SignIn";
+// import Form from "./Components/Form/Form";
+// import {BrowserRouter as Router, Redirect, Route} from "react-router-dom";
 import './App.css';
 
 function App() {
@@ -8,7 +10,7 @@ function App() {
       <header className="App-header">
   <p><i class="fas fa-tractor"></i>{' '}Crop Scout{' '}<i class="fas fa-tractor"></i></p>
       </header>
-      <Form/>
+     <SignIn/>
     </div>
   );
 }
