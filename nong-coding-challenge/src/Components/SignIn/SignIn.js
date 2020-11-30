@@ -8,7 +8,7 @@ function SignIn () {
         <p className="opening-paragraph">Please sign in or if your new here, please sign up!</p>
         <input className="user-email" placeholder="email"></input>
         <br></br>
-        <input className="user-password" placeholder="password"></input>
+        <input type="password" className="user-password" placeholder="password"></input>
         <br></br>
         <button className="Sign-in-button">Sign In</button>
         <button className="Sign-up-button">Sign Up</button>

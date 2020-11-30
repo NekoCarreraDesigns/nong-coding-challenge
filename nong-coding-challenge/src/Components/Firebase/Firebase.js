@@ -12,5 +12,19 @@ var firebaseConfig = {
     appId: "1:147355604530:web:c8cee4698bf52ad1344e2b",
     measurementId: "G-Q3412VRFES",
   };
-  
+
   firebase.initializeApp(firebaseConfig)
+
+  let email = "";
+  let password = "";
+  firebase.auth().createUserWithEmailAndPassword(email, password)
+  .then((user) => { 
+      user = {
+          email: this.user.email,
+          password: this.user.password
+      }
+
+  }).catch((error)=>{
+      if (error)
+      throw error
+  })
