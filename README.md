@@ -4,7 +4,7 @@
 
 ### https://nong-coding-challenge.web.app
 
-![](public/assets/CropScout.png)
+![](nong-coding-challenge/public/assets/CropScout.png)
 
 ## Description
 
