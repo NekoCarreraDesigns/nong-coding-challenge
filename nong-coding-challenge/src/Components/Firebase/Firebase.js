@@ -1,6 +1,5 @@
-import firebase from "firebase/app";
-import "/firebase/auth";
-import "/firebase/firestore";
+const firebase = require("firebase");
+require ("firebase/firestore");
 
 var firebaseConfig = {
     apiKey: "AIzaSyBTy53xCbhFkCDkUcSc5xhOb7Ms84Fe3Is",
@@ -14,5 +13,29 @@ var firebaseConfig = {
   };
 
   firebase.initializeApp(firebaseConfig)
+  
+  firebase.initializeApp({
+    apiKey: "AIzaSyBTy53xCbhFkCDkUcSc5xhOb7Ms84Fe3Is",
+    authDomain: "nong-coding-challenge.firebaseapp.com",
+    projectId: "nong-coding-challenge"
 
+  })
+
+  let db = firebase.firestore;
+
+  db.collection("notes").add({
+      date: "",
+      name: "",
+      note: ""
+  }).then(function(docRef){
+      console.log("document written with id:", docRef.id)
+  }).catch(function(error) {
+      console.log("error adding document:", error)
+  });
+
+  db.collection("notes").get().then((querySnapshot) => {
+         querySnapshot.forEach((doc) => {
+             console.log(`${doc.id} => ${doc.data()}`)
+         });
+  });
   
