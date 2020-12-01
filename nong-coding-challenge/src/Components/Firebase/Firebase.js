@@ -15,16 +15,4 @@ var firebaseConfig = {
 
   firebase.initializeApp(firebaseConfig)
 
-  let email = "";
-  let password = "";
-  firebase.auth().createUserWithEmailAndPassword(email, password)
-  .then((user) => { 
-      user = {
-          email: this.user.email,
-          password: this.user.password
-      }
-
-  }).catch((error)=>{
-      if (error)
-      throw error
-  })
+  
