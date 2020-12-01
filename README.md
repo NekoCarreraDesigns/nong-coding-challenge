@@ -2,7 +2,9 @@
 
 ![last commit](https://img.shields.io/github/last-commit/NekoCarreraDesigns/nong-coding-challenge?style=flat-square)![license badge](https://img.shields.io/github/license/NekoCarreraDesigns/nong-coding-challenge?style=flat-square)
 
-### URL: Coming Soon!
+### https://nong-coding-challenge.web.app
+
+![](public/assets/CropScout.png)
 
 ## Description
 
