@@ -6,7 +6,7 @@ function SignIn () {
     return (
         
         <div>
-        <p className="opening-paragraph">Please sign in or if your new here, please sign up!</p>
+        <p className="opening-paragraph">Please sign in!</p>
         <input className="user-email" placeholder="email"></input>
         <br></br>
         <input type="password" className="user-password" placeholder="password"></input>
