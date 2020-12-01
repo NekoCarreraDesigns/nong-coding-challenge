@@ -9,7 +9,7 @@ function App() {
     <Router>
     <div className="App">
       <header className="App-header">
-  <p><i class="fas fa-tractor"></i>{' '}Crop Scout{' '}<i class="fas fa-tractor"></i></p>
+  <p><i className="fas fa-tractor"></i>{' '}Crop Scout{' '}<i className="fas fa-tractor"></i></p>
       </header>
      <Switch>
       <Route exact path="/" component={Form}></Route>  

@@ -1,15 +1,16 @@
 import React from "react";
 import "./Form.css";
 
-function handleOnSubmit () {
+function handleOnSubmit (event) {
+    event.preventDefault();
+    console.log("clicked")
     const notes = []
     if (notes === true){
         return notes
     } else {
         alert ("please enter a note")
     }
-   
-}
+    }
 
 function Form () {
     return (
@@ -23,7 +24,7 @@ function Form () {
             <br></br>
             <textarea className="note-body" alt="note-text-area"></textarea>
         </form>
-        <button className="save-button" onSubmit={()=> handleOnSubmit}>Save</button>
+        <button className="save-button" onSubmit={()=> (handleOnSubmit)}>Save</button>
         <button className="log-out-button">Log Out</button>
         </div>
         <div className="saved-notes">
